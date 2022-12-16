@@ -132,8 +132,11 @@ h2 {
   display: flex;
   background-color: #606e82;
 }
+.visible {
+  display: none;
+}
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 580px) {
   .container {
     flex-direction: column;
     width: 80%;
@@ -179,5 +182,8 @@ h2 {
   }
   .share-icon-img-size {
     margin: -8px 0 20px 10px;
+  }
+  .visible {
+    display: block;
   }
 }
