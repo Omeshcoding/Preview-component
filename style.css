@@ -159,7 +159,7 @@ h2 {
   .preview-content {
     flex: 20%;
     padding-bottom: 0rem;
-    margin: 10px;
+    margin: 8px;
   }
   .contact {
     display: flex;
@@ -173,11 +173,11 @@ h2 {
     z-index: 9999;
   }
   .socials {
-    gap: 1.7rem;
+    gap: 1.1rem;
     width: 97vw;
     height: 70px;
     bottom: -1.1rem;
-    left: -17.5rem;
+    left: -15.5rem;
     z-index: 0;
   }
   .share-icon-img-size {
