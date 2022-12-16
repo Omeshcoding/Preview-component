@@ -97,13 +97,17 @@ h2 {
   outline: none;
   border: none;
   background: transparent;
-  margin-top: 7px;
-  width: 20px;
-  height: 25px;
+  /* margin-top: 7px; */
+  width: 40px;
+  height: 40px;
   text-align: center;
   background-color: var(--Light-Grayish-Blue);
   padding: 0.1rem 0.1rem;
   border-radius: 50%;
+}
+.share-icon-img {
+  margin-top: 10px;
+  width: 16px;
 }
 .share-icon:hover {
   fill: #fff;
@@ -162,12 +166,18 @@ h2 {
     width: 100%;
     justify-content: space-around;
   }
-  
+  .share-icon-img {
+    z-index: 9999;
+  }
   .socials {
-    gap: 2.5rem;
-    width: 100vw;
-    height: 60px;
-    bottom: -1.44rem;
-    left: -17rem;
+    gap: 1.7rem;
+    width: 97vw;
+    height: 70px;
+    bottom: -1.1rem;
+    left: -17.5rem;
+    z-index: 0;
+  }
+  .share-icon-img-size {
+    margin: -8px 0 20px 10px;
   }
 }
