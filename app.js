@@ -5,9 +5,4 @@ shareIcon.addEventListener('click', getClicked);
 
 function getClicked() {
   socials.classList.toggle('active');
-
-  // if (shareIcon.classList !== 'active') {
-  // } else {
-  //   socials.classList.remove('active');
-  // }
 }

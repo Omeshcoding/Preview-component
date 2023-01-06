@@ -109,6 +109,7 @@ h2 {
   margin-top: 10px;
   width: 16px;
 }
+
 .share-icon:hover {
   fill: #fff;
   background-color: var(--Grayish-Blue);
@@ -121,25 +122,38 @@ h2 {
   letter-spacing: 1.9px;
   position: absolute;
   bottom: 60px;
-  left: -6rem;
+  left: -7rem;
   color: var(--Grayish-Blue);
   border-radius: 10px;
   padding: 1.2rem 3.5rem;
 }
-
+.socials::after {
+  position: absolute;
+  content: '';
+  right: 7.5rem;
+  bottom: -0.8rem;
+  border-top: 0.88rem solid var(--Very-Dark-Grayish-Blue);
+  border-right: 0.88rem solid transparent;
+  border-left: 0.88rem solid transparent;
+  z-index: 10;
+}
+.socials a:hover {
+  transform: scale(1.2);
+}
 .active {
   transition: all 0.8s ease-in-out;
   display: flex;
-  background-color: #606e82;
+  background-color: var(--Very-Dark-Grayish-Blue);
 }
 .visible {
   display: none;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 480px) {
   .container {
     flex-direction: column;
     width: 80%;
+    justify-content: center;
     overflow: hidden;
   }
   .drawer-img {
@@ -177,9 +191,10 @@ h2 {
     width: 97vw;
     height: 70px;
     bottom: -1.1rem;
-    left: -15.5rem;
+    left: -16rem;
     z-index: 0;
   }
+
   .share-icon-img-size {
     margin: -8px 0 20px 10px;
   }
